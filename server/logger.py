@@ -1,23 +1,17 @@
 import logging
+import os
 
+LOG_DIR = "logs"
 
-def setup_logger(name="RAG-PROJECT"):
+os.makedirs(LOG_DIR, exist_ok=True)
 
-   
-   logger = logging.getLogger(name)
-   logger.setLevel(logging.DEBUG)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(message)s",
+    handlers=[
+        logging.FileHandler(f"{LOG_DIR}/app.log"),
+        logging.StreamHandler()
+    ]
+)
 
-   # console handler
-   ch = logging.StreamHandler()
-   ch.setLevel(logging.DEBUG)
-
-   #formatter
-   formatter = logging.Formatter("[%(asctime)s] [%(levelname)s] - %(message)s")
-   ch.setFormatter(formatter)
-
-   if not logger.hasHandlers():
-        logger.addHandler(ch)
-   
-   return logger
-
-logger = setup_logger()
+logger = logging.getLogger(__name__)
