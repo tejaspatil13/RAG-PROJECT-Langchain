@@ -4,9 +4,9 @@
 2026-07-09 02:12:01,592 | INFO | loaded 1 pages 😎😎
 2026-07-09 02:12:01,593 | INFO | spitting documents into chunks...🥳🍾
 2026-07-09 02:12:01,593 | INFO | Created 5 nos of chunks 
-2026-07-09 02:46:23,731 | INFO | loading pdf : uploaded_files/Hemlata_Patil_NagarSevak_Platform.pptx.pptx
+-09 02:46:23,731 | INFO | loading pdf : uploaded_files/Hemlata_Patil_NagarSevak_Platform.pptx.pptx
 2026-07-09 02:46:23,737 | WARNING | invalid pdf header: b'PK\x03\x04\x14'
-2026-07-09 02:46:24,278 | WARNING | EOF marker not found
+2026-07-09 02:46:24,278 | WARNING | EOF marker not found2026-07
 2026-07-09 02:46:24,279 | ERROR | Error loading PDF : Stream has ended unexpectedly 😭😭
 2026-07-09 02:47:43,645 | INFO | loading pdf : uploaded_files/Hemlata_Patil_NagarSevak_Platform.pptx.pdf
 2026-07-09 02:47:43,901 | INFO | loaded 12 pages 😎😎
