@@ -9,8 +9,9 @@ langchain-community
 langchain-core
 langchain-groq
 langchain-chroma
-langchain-huggingface
 
+sentence-transformers==5.0.0
+langchain-huggingface==0.3.1
 # Vectorstore
 # chromadb
 pinecone
