@@ -14,7 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'DocuMind — Chat with your documents',
+  title: 'Context AI',
   description:
     'A modern RAG chatbot. Upload a PDF or pick a book and ask grounded questions about it.',
   generator: 'v0.app',
