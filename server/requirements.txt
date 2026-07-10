@@ -9,6 +9,7 @@ langchain-community
 langchain-core
 langchain-groq
 langchain-chroma
+langchain-huggingface
 
 # Vectorstore
 # chromadb
