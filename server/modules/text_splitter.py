@@ -12,7 +12,7 @@ class TextSplitter:
             
             splitter = RecursiveCharacterTextSplitter(
                 chunk_size=1000,
-                chunk_overlap=100,
+                chunk_overlap=150,
             )
             chunks = splitter.split_documents(documents)
             
