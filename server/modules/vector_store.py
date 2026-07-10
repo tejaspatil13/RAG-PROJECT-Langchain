@@ -1,7 +1,7 @@
 from logger import logger 
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
-from sentence_transformers import SentenceTransformer
+
 
 
 
