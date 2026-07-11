@@ -6,8 +6,16 @@ from logger import logger
 
 class Retriever:
 
+    retriever = None
+
     def get_retriever(self):
         try:
+            if Retriever.retriever is not None:
+                logger.info("Using Existing Retriever...")
+                return Retriever.retriever
+            
+            
+            
             logger.info("Loading Embedding Model...")
 
             embedding = HuggingFaceEmbeddings(
@@ -29,7 +37,7 @@ class Retriever:
 
             logger.info("Retriever Created Successfully")
 
-            return retriever
+            return Retriever.retriever
 
         except Exception as e:
             logger.error(f"Retriever Error: {e}")
