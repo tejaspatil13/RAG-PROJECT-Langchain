@@ -31,7 +31,7 @@ class Retriever:
 
             logger.info("Creating Retriever...")
 
-            retriever = vector_db.as_retriever(
+            Retriever.retriever = vector_db.as_retriever(
                 search_kwargs={"k": 3}
             )
 
